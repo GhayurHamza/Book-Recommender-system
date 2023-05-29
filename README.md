@@ -2,10 +2,11 @@
 
 This project is a book recommender system developed in Jupyter Notebook using Python. The recommender system utilizes a dataset, performs data cleaning and preprocessing, merges datasets to create dataframes according to specific needs, and applies cosine similarity on these dataframes to generate recommendations. The dataframes are then exported using the pickle library in Python.
 
-Project Structure
+## Project Structure
 The project is divided into two main parts: the Jupyter Notebook implementation and the web application.
 
-Jupyter Notebook Implementation
+
+### Jupyter Notebook Implementation
 The Jupyter Notebook serves as the initial development environment for the book recommender system. It follows a step-by-step process that includes the following stages:
 
 Dataset Search: The dataset for the book recommender system is obtained from a reliable source. This dataset contains information about various books, such as their titles, authors, genres, and other relevant attributes.
@@ -18,7 +19,7 @@ Cosine Similarity: The dataframes created from the merged dataset are used to ca
 
 Exporting Dataframes: The calculated dataframes are exported using the pickle library in Python. This enables easy and efficient access to the dataframes in subsequent steps of the project.
 
-Web Application
+### Web Application
 The web application is the final outcome of the project, where users can interact with the book recommender system. It is developed in PyCharm using Flask, a popular Python web framework. The web application incorporates the exported pickle files from the Jupyter Notebook implementation and includes HTML-coded web pages for user interaction.
 
 The key components of the web application are as follows:
@@ -29,7 +30,7 @@ Pickle Files: The exported dataframes from the Jupyter Notebook implementation a
 
 HTML Web Pages: The web application includes HTML-coded web pages that provide a user-friendly interface for users to interact with the book recommender system. These pages typically contain forms, buttons, and other elements for inputting user preferences and displaying the recommended books.
 
-Getting Started
+### Getting Started
 To run the book recommender system locally, follow these steps:
 
 Clone the repository to your local machine.
@@ -42,7 +43,7 @@ Run the Flask application by executing python app.py in the terminal.
 Access the web application by opening a web browser and navigating to http://localhost:5000.
 Feel free to explore the web application, enter your preferences, and receive personalized book recommendations based on the implemented recommender system.
 
-Further Improvements
+### Further Improvements
 This project serves as a starting point for a book recommender system. Here are a few areas where further improvements can be made:
 
 Enhance Data Cleaning: Implement more advanced techniques for data cleaning and preprocessing, such as natural language processing (NLP) for text standardization or handling missing values more effectively.
@@ -55,8 +56,8 @@ Improve User Interface: Enhance the user interface of the web application with m
 
 By continuously iterating on these improvements, the book recommender system can become more robust, accurate, and user-friendly.
 
-License
+### License
 This project is licensed under the MIT License. Feel free to modify and use it according to your needs.
 
-Acknowledgments
+### Acknowledgments
 We would like to acknowledge the open-source community for providing valuable resources, tutorials, and datasets that contributed to the development of this project. Additionally, we express our gratitude to the Flask and Jupyter Notebook developers for their excellent frameworks that made this project possible.
